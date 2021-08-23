@@ -1,0 +1,45 @@
+.PHOTO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: black;
+} 
+
+.unique {
+    margin: 2em 0;
+}
+
+.scroll{
+    text-align: center;
+    margin: 1em;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.p-img {
+    max-width: 200px;
+    border-radius: 25px;
+    background-color: blue;
+}
+
+.righ {
+    transform: translateX(800px);
+    transition: all 1s ease-out;
+}
+
+.lef {
+    transform: translateX(-800px);
+    transition: all 1s ease-out;
+}
+
+.one {
+    transform: translateX(0px) !important;
+}
+
+.move {
+    margin:2em 0% !important;
+    transform: translateX(0px) rotate(720deg);
+}

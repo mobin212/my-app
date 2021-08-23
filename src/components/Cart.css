@@ -1,0 +1,100 @@
+.hole {
+    background-color: azure;
+}
+
+.card {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    border: 2px solid rgb(5, 12, 17);
+    margin: 5px 1em;
+    position: relative;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.img_main{
+    border-radius: 30px;
+}
+
+.price {
+    background-color: rgba(44, 150, 160, .5);
+    border-radius: 10%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.card_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em 0;
+    padding: 3vw;
+    max-width: 90%;
+    margin: auto;
+}
+
+.body_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    text-align: center;
+}
+
+.btn-main {
+    background-color: darkgreen;
+    width: 10vw;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.aa{
+    background-color: rgb(8, 216, 231);
+    border-radius: 5px;
+    font-size: 1.3em;
+    text-decoration: none;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aa:hover {
+    opacity: .9;
+    transform: scale(.95);
+    transition: all .1s ease-in-out;
+}
+
+
+@media screen and (max-width: 550px) {
+    .card {
+        width: 80%;
+    }
+    .btn-main{
+        bottom: .2em;
+        font-size: .6em;
+        width: 30vw;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .card {
+        width: 90vw;
+    }
+    .btn-main{
+        bottom: .2em;
+        font-size: .7em;
+        width: 25vw;
+    }
+  }

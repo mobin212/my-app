@@ -1,0 +1,104 @@
+.imgg {
+    width: 10vw;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 70%;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+.total {
+    text-align: center;
+    background-color: dimgray;
+    width: 80vw;
+    border-radius: 10px;
+    margin:4em auto 0
+}
+
+.card5 {
+    margin: 1em;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pt {
+    background-color: rgba(217, 240, 12, 0.5);
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.po {
+    background-color: rgba(100,20,100,.5);
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.contain_s {
+    background-color:rgba(167, 146, 146, 0.4);
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.back{
+    margin: 1.5em auto;
+    display: inline-block;
+    width: 20vw;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row{
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.up{
+    margin-left: .8em;
+}
+
+.btn_icon {
+    display: table;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 550px) {
+    .display{
+     width: 90vw;
+     justify-content: center;
+    }
+    .imgg {
+        width: 50vw;
+    }
+
+    .contain_s{
+        height: auto;
+    }
+
+    .total {
+        width: 90vw;
+    } 
+}
