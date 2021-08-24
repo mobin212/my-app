@@ -36,12 +36,8 @@ const Fetchproduct = () => {
     
 
     useEffect( ()=>{
-        // const Axs = async () => {
-        //     const response = await axios.get('https://fakestoreapi.com/products')
-        //     .catch(err=> console.log(err))
+        
             dispatch(ActionSet())
-        // };
-        // Axs();
     },[]) //eslint-disable-line react-hooks/exhaustive-deps
     return (
         <div id="hole" className='hole'>

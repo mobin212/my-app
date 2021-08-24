@@ -23,7 +23,7 @@ const PHOTOS = () => {
             })
         })
 
-        // console.log(Re.current.getBoundingClientRect())
+        
 
     },[])
     

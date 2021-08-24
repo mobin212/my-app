@@ -17,9 +17,6 @@ const Category = () => {
     console.log(Boolean(re.current))
     useEffect(()=>{
             window.addEventListener('click', (e)=>{
-                // console.log(re.current);
-                // console.log(e.target);
-                // console.log(re.current.contains(e.target))
                 if(Boolean(re.current)){
                     if(!re.current.contains(e.target) && Boolean(re.current)){
                         Boolean(re.current);
