@@ -14,7 +14,6 @@ const Category = () => {
     
     const re = useRef()
     
-    console.log(Boolean(re.current))
     useEffect(()=>{
             window.addEventListener('click', (e)=>{
                 if(Boolean(re.current)){

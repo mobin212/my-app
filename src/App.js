@@ -17,7 +17,6 @@ const Store = createStore(Reducers, applyMiddleware(thunk))
 
 
 function App() {
-    console.log(window.location.pathname)
 
     return (
 <div className='app'>

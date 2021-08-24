@@ -11,7 +11,7 @@ export const ActionSet = () => {
         
         const response = await axios.get('https://fakestoreapi.com/products')
             .catch(err=> console.log(err));
-            console.log(response)
+    
         
     
 
