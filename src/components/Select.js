@@ -11,11 +11,6 @@ const Select = (props) => {
     const param = useParams()
     const dispatch = useDispatch()
     const select = useSelector(state => state.one)
-    const restate = useSelector(state => state.buy.total)
-
-    const exist = restate.find(w=>Number(w.id)===Number(param.id))
-    // console.log(Boolean (exist))
-    // console.log(param.id)
 
     const fetch = async() => {
         const response = await axios.get(`https://fakestoreapi.com/products/${param.id}`)
@@ -42,7 +37,7 @@ const Select = (props) => {
                 <p className="des">{select.description}</p>
                 <h2 className="category">{select.category}</h2>
                 <h3 className='price2'>{`price  ${select.price} $`}</h3>
-                <button onClick={()=>{dispatch(action(select))}} className="btn-2" disabled={Boolean(exist)}>ADD</button>
+                <button onClick={()=>{dispatch(action(select))}} className="btn-2" >ADD</button>
             </div>
         </div>
     )
