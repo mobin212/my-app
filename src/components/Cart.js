@@ -11,7 +11,7 @@ const Cart = (props) => {
             <p>{props.category}</p>
             <h2 className='price'>PRICE: {props.price}$</h2>
             <Link className='aa' to={`/detail/${props.id}`}>
-                MORE aaa
+                MORE
             </Link>
         </div>
     )
